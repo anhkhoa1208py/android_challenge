@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemWeather"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?android:attr/fingerprintAuthDrawable"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="null"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_15sp"
+            tools:text="Date: Tue, 10 March 2020" />
+
+        <TextView
+            android:id="@+id/txtAverageTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="null"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_15sp"
+            tools:text="Average temperature: 20 C" />
+
+        <TextView
+            android:id="@+id/txtPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="null"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_15sp"
+            tools:text="Pressure: 1031" />
+
+        <TextView
+            android:id="@+id/txtHumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="null"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_15sp"
+            tools:text="Humidity: 71%" />
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="null"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dim_15sp"
+            tools:text="Description: light rain" />
+
+    </LinearLayout>
+
+</LinearLayout>
